@@ -1,0 +1,24 @@
+<div class='books-page-container'>
+  <div>
+    <h1>Livros disponíveis</h1>
+  </div>
+
+  <div class='books-page'>
+
+    {{#each books}}
+      <div class='book-card'>
+        <img
+          src={{this.capa}}
+          alt=''
+          class='book-img'
+        />
+
+        <span class='bold'>
+          <a href='/books/{{this.id}}'>{{this.titulo}}</a>
+        </span>
+
+      </div>
+    {{/each}}
+
+  </div>
+</div>

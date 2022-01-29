@@ -1,0 +1,22 @@
+<h1>Cadastre o seu livro</h1>
+<form action='/books/insertbook' method='POST' class='form'>
+  <div class='form-control'>
+    <label for='titulo'>Título</label>
+    <input type='text' name='titulo' placeholder='Digite o título do livro' />
+  </div>
+  <div class='form-control'>
+    <label for='editora'>Editora</label>
+    <input type='text' name='editora' placeholder='Digite o nome da editora' />
+  </div>
+  <div class='form-control'>
+    <label for='capa'>Capa</label>
+    <input type='text' name='capa' placeholder='Digite a url da foto do livro' />
+  </div>
+  <div class='form-control'>
+    <label for='autor'>Autor/Autora</label>
+    <input type='text' name='autor' placeholder='Digite o nome do autor do livro' />
+    <input type='submit' value='Enviar!' id='book-send' />
+  </div>
+
+  
+</form>

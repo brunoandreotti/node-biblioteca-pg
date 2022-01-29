@@ -1,0 +1,147 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: red;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#navbar ul li {
+  margin-left: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.form-control input {
+  padding: 5px;
+  margin-bottom: 0.5rem;
+}
+
+#book-send {
+  width: 10rem;
+  align-self: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 214);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#book-send:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+/* BOOKS */
+
+.books-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+.books-page {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  background-color: rgb(223, 220, 220);
+  width: 20rem;
+  height: 28rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(190, 189, 189);
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.book-img {
+  height: 25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* BOOK */
+
+.container p {
+  margin-bottom: 1rem;
+}
+
+#book-page {
+  padding: 2rem;
+}
+
+#book-page .container {
+  text-align: center;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions-button{
+  color: rgb(0, 0, 0);
+  background-color: rgb(231, 230, 230);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.actions-button:hover{
+  color: red;
+}

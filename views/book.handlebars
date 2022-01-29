@@ -1,0 +1,17 @@
+<div id='book-page'>
+  <div class='container'>
+    <h1>
+      {{book.titulo}}
+    </h1>
+    <img class="book-img" src={{book.capa}} alt="">
+    <p><b>Editora:</b> {{book.editora}}</p>
+    <p><b>Autor/Autora:</b> {{book.autor}}</p>
+    <div class="actions">
+      <a class="actions-button" href="/books/edit/{{book.id}}">Editar informações</a>
+      <form action="/books/remove/{{book.id}}" method="post">
+      <input class="actions-button" type="submit" value="Deletar livro">
+      </form>
+    </div>
+  </div>
+
+</div>
