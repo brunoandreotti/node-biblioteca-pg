@@ -26,7 +26,7 @@ O objetivo do projeto foi criar um sistema de gerenciamento de uma biblioteca, c
 # Conhecimentos Praticados
 ✔ NodeJs <br>
 ✔ Express <br>
-✔ Integração do express com PostgreSQL <br>
+✔ Integração do Express com PostgreSQL <br>
 ✔ Manipular o banco de dados utilizando NodeJs <br>
 ✔ Handlebars <br>
 
