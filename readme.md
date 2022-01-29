@@ -48,4 +48,4 @@ O objetivo do projeto foi criar o backend para um sistema de gerenciamento de um
 
 
 ---
-**Desenvolvido  por [Bruno Andreotti](https://github.com/brunoandreotti).** 
+**Desenvolvido  por [Bruno Andreotti](www.linkedin.com/in/bruno-andreotti/).** 
